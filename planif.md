@@ -1,7 +1,7 @@
 # USER
-name:string [unique, present]
+name:string [unique, present, 8-16 characters long] 
 email:string [unique, present]
-password:string [6-16 chars, present]
+password:string [8-16 chars, present]
 id:integer
 created_at:datetime
 updated_at:datetime
